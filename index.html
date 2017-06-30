@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banighton</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./app/css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="./app/css/hamburgers.min.css">
+    <link rel="stylesheet" href="./app/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./app/css/styles.css">
+</head>
+<body>
+    <div class="se-pre-con">
+        <div class="preloader-wrapper active">
+            <div class="spinner-layer spinner-blue-only">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div><div class="gap-patch">
+                <div class="circle"></div>
+            </div><div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="app"></div>
+
+    <script src="./app/js/jquery.min.js"></script>
+    <script src="./app/js/materialize.min.js"></script>
+    <script src="index.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $(".se-pre-con").fadeOut("slow");
+        });
+    </script>
+
+</body>
+</html>

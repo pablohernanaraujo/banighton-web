@@ -1,0 +1,70 @@
+/* ENCABEZADO */
+
+.navegador
+  width 100%
+  height 80px
+  position fixed
+  top 0
+  z-index 15
+  background -moz-linear-gradient(top,  rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 100%)
+  background -webkit-linear-gradient(top,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%)
+  background linear-gradient(to bottom,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%)
+
+.logo
+  width 280px
+  height 80px
+  background-image url("../images/banighton.png")
+  background-repeat no-repeat
+  background-position left
+  margin-left 15px
+
+.menuBtn
+  position absolute
+  top 15px
+  right 15px
+
+.clientesBtn
+  position absolute
+  top 24px
+  right 100px
+
+.dashboard
+  box-shadow 0 0 6px rgba(0,0,0,0.3)
+  text-shadow 0 0 4px rgba(0,0,0,0.5)
+
+.hamburger-inner, .hamburger-inner::after, .hamburger-inner::before
+  background-color white
+  box-shadow 0 0 6px rgba(0,0,0,0.3)
+
+.menu
+  width 100%
+  height 100%
+  background-color rgba(0,0,0,0.9)
+  position fixed
+  top 0
+  opacity 0
+  tra(0.5s ease-in-out)
+  z-index -1
+  display flex
+  align-items center
+  justify-content center
+
+  & ul
+    text-align center
+    font-size 40px
+
+    & li
+      height 80px
+
+    & li a
+      color white
+      letter-spacing 10px
+
+.menuCerrar
+  opacity 1
+  z-index 10
+
+.socials
+  display flex
+  justify-content: space-around;
+
